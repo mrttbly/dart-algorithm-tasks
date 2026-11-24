@@ -1,6 +1,6 @@
 void main() {
-  double price = 10000; // Цена товара
-  double discount = 15; // Скидка в процентах
+  double price = 10000;
+  double discount = 15;
 
   double discountAmount = price * discount / 100;
   double finalPrice = price - discountAmount;
