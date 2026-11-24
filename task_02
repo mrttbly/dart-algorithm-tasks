@@ -1,0 +1,12 @@
+void main(){
+    int a = 20;
+    int b = 10;
+
+    int sum = a + b;
+    int subtraction = a - b;
+
+    print("Первое чесло: $a");
+    print("Второе чесло: $b");
+    print("Сумма чесло: $sum");
+    print("Вычитание чесло: $subtraction");
+  }
