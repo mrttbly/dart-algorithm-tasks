@@ -1,0 +1,12 @@
+void main() {
+  double price = 10000; // Цена товара
+  double discount = 15; // Скидка в процентах
+
+  double discountAmount = price * discount / 100;
+  double finalPrice = price - discountAmount;
+
+  print("Цена товара: $price тенге");
+  print("Скидка: $discount%");
+  print("Сумма скидки: $discountAmount тенге");
+  print("Цена со скидкой: $finalPrice тенге");
+}
